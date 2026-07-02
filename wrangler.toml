@@ -1,0 +1,15 @@
+name = "bio-site"
+main = "src/api/index.ts"
+compatibility_date = "2026-07-02"
+
+[pages]
+build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "bio-site-db"
+database_id = "SUBSTITUIR_PELO_ID_GERADO"
+
+[[r2_buckets]]
+binding = "MY_BUCKET"
+bucket_name = "bio-uploads"
